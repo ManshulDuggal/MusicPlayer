@@ -34,7 +34,7 @@ const MusicPlayer = ({
       }
     });
     setTrack(selectedTrack);
-  }, [currentTrack, setTrack, track]);
+  }, [currentTrack]);
   //event handlers
   const playTrackHandler = () => {
     if (playing) {
