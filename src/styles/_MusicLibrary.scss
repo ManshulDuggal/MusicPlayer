@@ -1,0 +1,139 @@
+.library-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 2rem;
+  height: 100%;
+  width: 25rem;
+  background: rgba(238, 234, 234, 0.137);
+  box-shadow: #242425 10px 1px 40px;
+  overflow: scroll;
+  overflow-x: hidden;
+  transform: translateX(-100%);
+  transition: all 0.3s ease-in;
+  opacity: 0;
+
+  h2 {
+    margin-bottom: 2rem;
+    padding: 0rem 1rem;
+  }
+}
+
+.library-song {
+  display: flex;
+  align-items: center;
+  padding: 1rem 1rem 1rem 1rem;
+  cursor: pointer;
+
+  img {
+    width: 30%;
+  }
+  &:hover {
+    background: rgba(90, 89, 89, 0.493);
+  }
+}
+
+.track-info {
+  display: flex;
+  flex-flow: column;
+  padding: 1rem;
+
+  h3 {
+    font-size: 0.9rem;
+    margin-bottom: 0.2rem;
+  }
+
+  h4 {
+    font-size: 0.8rem;
+  }
+}
+
+//scrollbar
+
+* {
+  scrollbar-width: none;
+}
+
+*::-webkit-scrollbar {
+  width: 0.3rem;
+}
+
+*::-webkit-scrollbar-button {
+  background: transparent;
+}
+
+*::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: rgba(43, 41, 41, 0.671);
+  border-radius: 50px;
+  border: solid;
+}
+
+.selected {
+  background: rgba(29, 27, 27, 0.404);
+}
+
+.active-musiclibrary {
+  transition: all 0.3s ease-in-out;
+  transform: translateX(0%);
+  opacity: 1;
+}
+
+.App {
+  transition: all 0.2s ease-in-out;
+  margin: 0%;
+}
+
+.Musiclibrary-active {
+  margin-left: 10%;
+  transition: all 0.2s ease-in-out;
+  
+}
+
+@media screen and (max-width: 400px) {
+  .library-container {
+    z-index: 2;
+    background: rgb(255, 255, 255);
+    h2 {
+      font-size: 1rem;
+      text-align: center;
+      margin-bottom: 1rem;
+    }
+    .library-song {
+      img {
+        width: 20%;
+      }
+    }
+  }
+
+  .track-info {
+    display: flex;
+    flex-flow: column;
+    padding: 1rem;
+
+    h3 {
+      font-size: 0.6rem;
+      margin-bottom: 0rem;
+    }
+
+    h4 {
+      font-size: 0.6rem;
+    }
+  }
+
+  .Musiclibrary-active {
+    nav {
+      .toggle-library-button {
+        
+        align-content: flex-end;
+        z-index: 10;
+        width: 5%;
+        margin-left: 40%;
+       
+      }
+    }
+  }
+}

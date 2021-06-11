@@ -1,0 +1,119 @@
+.player-container {
+  min-height: 1vh;
+  display: flex;
+  flex-flow: column;
+  text-align: center;
+  align-items: center;
+  justify-items: center;
+}
+
+.player-controlinfo {
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  width: 40%;
+
+  input {
+    width: 100%;
+    -webkit-appearance: none;
+    background: transparent;
+  }
+
+  p {
+    padding: 1rem;
+  }
+}
+
+.play-control {
+  width: 40%;
+  padding: 2rem;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+
+  svg {
+    cursor: pointer;
+  }
+}
+
+input[type="range"]:focus {
+  outline: none;
+  cursor: pointer;
+}
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  height: 1rem;
+  width: 2rem;
+  background: black;
+  border-radius: 10%;
+}
+input[type="range"]::-moz-range-thumb {
+  -webkit-appearance: none;
+  height: 1rem;
+  width: 2rem;
+  background: black;
+  border-radius: 10%;
+}
+
+
+
+.track-range {
+  margin: 1rem;
+  width: 100%;
+  height: 1rem;
+  border-radius: 1rem;
+  background: rgba(205, 212, 212, 0.37);
+  overflow: hidden;
+  position: relative;
+}
+
+.animate-track-range {
+  background: rgba(97, 92, 92, 0.151);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  border-radius: 1rem;
+  transform: translateX(0%);
+  pointer-events: none;
+}
+
+//media queries
+
+@media screen and (max-width: 400px) {
+  .library-container {
+    min-height: 1vh;
+    display: block;
+  }
+
+  .play-control {
+    width: 40%;
+    padding: 1rem;
+
+    .fa-3x {
+      font-size: 2rem;
+    }
+  }
+
+  .player-controlinfo {
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+
+    input {
+      width: 100%;
+      -webkit-appearance: none;
+      background: transparent;
+    }
+  }
+
+  input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    height: 1rem;
+    width: 1rem;
+    background: black;
+    border-radius: 10%;
+  }
+}

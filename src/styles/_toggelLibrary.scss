@@ -1,0 +1,41 @@
+nav {
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+  width: 100%;
+
+  .toggle-library-button {
+    margin-top: 2rem;
+    width: 3rem;
+    transition: all 0.5s ease-in-out;
+  }
+}
+
+
+
+// .toggle-library-button {
+//   display: block;
+//   position: absolute;
+//   top: 7%;
+//   left: 50%;
+//   width: 3rem;
+//   transition: all 0.3s ease-in-out;
+//   pointer-events: all;
+//   cursor: pointer;
+
+//   transform: translate(-50%, -50%);
+//   &:hover {
+//     width: 3%;
+//     transition: all 0.3s ease-in-out;
+//   }
+// }
+
+//media queries
+@media screen and (max-width: 400px) {
+  nav {
+    .toggle-library-button {
+      z-index: 3;
+      width: 2rem;
+    }
+  }
+}
