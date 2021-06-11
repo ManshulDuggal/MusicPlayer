@@ -34,7 +34,7 @@ const MusicPlayer = ({
       }
     });
     setTrack(selectedTrack);
-  }, [currentTrack]);
+  }, [currentTrack, setTrack, track]);
   //event handlers
   const playTrackHandler = () => {
     if (playing) {
@@ -61,21 +61,20 @@ const MusicPlayer = ({
   //function for forward and back button
   const switchTrackHandler = async (direction) => {
     let currentIndex = track.findIndex((song) => song.id === currentTrack.id);
-   
 
     if (direction === "forward-button") {
-      await  setCurrentTrack(track[(currentIndex + 1) % track.length]);
-      if(playing) trackRef.current.play();
+      await setCurrentTrack(track[(currentIndex + 1) % track.length]);
+      if (playing) trackRef.current.play();
     }
     if (direction === "back-button") {
       if ((currentIndex - 1) % track.length === -1) {
         await setCurrentTrack(track[track.length - 1]);
-        if(playing) trackRef.current.play();
+        if (playing) trackRef.current.play();
         return;
       }
       await setCurrentTrack(track[(currentIndex - 1) % track.length]);
     }
-    if(playing) trackRef.current.play();
+    if (playing) trackRef.current.play();
   };
   //adding the animation to track div
   const trackAnim = {
@@ -86,7 +85,12 @@ const MusicPlayer = ({
       <div className="player-controlinfo">
         <p>{formatTIme(trackTime.currentTime)}</p>
 
-        <div style={{background :`linear-gradient(to right, ${currentTrack.color[0]}, ${currentTrack.color[1]})`}} className="track-range">
+        <div
+          style={{
+            background: `linear-gradient(to right, ${currentTrack.color[0]}, ${currentTrack.color[1]})`,
+          }}
+          className="track-range"
+        >
           <input
             min={0}
             max={trackTime.duration || 0}
