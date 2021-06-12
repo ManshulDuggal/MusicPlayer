@@ -105,7 +105,7 @@ function getTrack() {
     {
       name: "Love",
       artist: "Bohnes",
-      cover: "https://i1.wp.com/is2-ssl.mzstatic.com/image/thumb/Music128/v4/43/17/79/431779e2-fff6-9a38-0de5-c975db13da08/5054526337473_1.jpg",
+      cover: "https://i1.wp.com/is2-ssl.mzstatic.com/image/thumb/Music128/v4/43/17/79/431779e2-fff6-9a38-0de5-c975db13da08/5054526337473_1.jpg/600x600bf.jpg?resize=554%2C554&ssl=1",
       audio: "https://lifedj.sunproxy.net/download/MzcwWUp0QjdoL094NVVvQ2lwYVFKRU5lelZTOHQ4WGZ4MUhUZWttVWkyYnlKc0FVNSs3RTE0WTJScnppUHQwLzFRWEJiRmUvRHYzTVVveFhrRGRXRFQ0OXBYYkNQSEhWNnRwSi84U0lJTzJwaDhHejBkcHpFTEcxZHByQSsyWFc/Bohnes_-_Zombie_Love_(djlist.net).mp3",
       color: ["#e0d2cc9e", "#02080a"],
       id: uuidv4(),
