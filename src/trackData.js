@@ -6,7 +6,7 @@ function getTrack() {
       name: "NITROUS",
       artist: "Joji",
       cover:
-        "https://www.clashmusic.com/sites/default/files/field/image/111_%20OnlineImage12.jpg",
+        "https://wallpaperaccess.com/full/2246805.jpg",
       audio:
         "http://www.stannovastore.com/wp-content/uploads/2020/09/Joji_-_NITROUS_stannovastore.com.mp3",
       color: ["#434343", "#ffffff"],
