@@ -29,8 +29,7 @@ function getTrack() {
       artist: "CYGN",
       cover:
         "https://chillhop.com/wp-content/uploads/2021/02/d12927eedcc2f5afba2ab049a4a1ea46c2266ae3-1024x1024.jpg",
-      audio:
-        "https://mp3.chillhop.com/serve.php/?mp3=14991",
+      audio: "https://mp3.chillhop.com/serve.php/?mp3=14991",
       color: ["#945F9E", "#29242A"],
       id: uuidv4(),
       active: false,
@@ -49,8 +48,7 @@ function getTrack() {
     {
       name: "On My Own",
       artist: "Jaden ft. Kid Cudi",
-      cover:
-        "https://media.wonderlandmagazine.com/uploads/2021/03/LOOK-7.jpg",
+      cover: "https://media.wonderlandmagazine.com/uploads/2021/03/LOOK-7.jpg",
       audio:
         "https://vevosongs.com/wp-content/uploads/2021/01/Jaden_Smith_Ft_Kid_Cudi_-_On_My_Own.mp3",
       color: ["#E39345", "#2E2724"],
@@ -60,10 +58,9 @@ function getTrack() {
     {
       name: "Dame Dame ft. Lunis",
       artist: "Beggin",
-      cover:
-        "https://i.scdn.co/image/ab67616d0000b2737260c2df3c14928c7103ef31",
+      cover: "https://i.scdn.co/image/ab67616d0000b2737260c2df3c14928c7103ef31",
       audio:
-        "https://fileskeep.xyz/uploads/2021/01/Dame_Dame_ft_Lunis_-_Beggin.mp3",
+        "https://hitsongz.com/wp-content/uploads/2021/01/Dame_Dame_ft_Lunis_-_Beggin_hitsongz.com.mp3",
       color: ["#6D2413", "#A1AAA9"],
       id: uuidv4(),
       active: false,
@@ -71,8 +68,7 @@ function getTrack() {
     {
       name: "8 Legged Dreams",
       artist: "Unlike Pluto",
-      cover:
-        "https://www.buscaletras.com/photos/artists/max/unlike-pluto.jpg",
+      cover: "https://www.buscaletras.com/photos/artists/max/unlike-pluto.jpg",
       audio:
         "https://vevosongs.com/wp-content/uploads/2020/08/Unlike_Pluto_-_8_Legged_Dreams.mp3",
       color: ["#1D1D1D", "#CECECE"],
@@ -82,10 +78,8 @@ function getTrack() {
     {
       name: "Down",
       artist: "Marian Hill",
-      cover:
-        "https://m.media-amazon.com/images/I/51N4pVMkZpL._SS500_.jpg",
-      audio:
-        "https://data.mymp3app.com/320/marian-hill-down.mp3",
+      cover: "https://m.media-amazon.com/images/I/51N4pVMkZpL._SS500_.jpg",
+      audio: "https://data.mymp3app.com/320/marian-hill-down.mp3",
       color: ["#907B34", "#0D0D0D"],
       id: uuidv4(),
       active: false,
@@ -93,11 +87,18 @@ function getTrack() {
     {
       name: "Infinity",
       artist: "The xx",
-      cover:
-        "https://i.ytimg.com/vi/d5PacNNvlEs/maxresdefault.jpg",
-      audio:
-        "https://download.my-free-music.icu/s/The-xx-Intro.mp3",
+      cover: "https://i.ytimg.com/vi/d5PacNNvlEs/maxresdefault.jpg",
+      audio: "https://download.my-free-music.icu/s/The-xx-Intro.mp3",
       color: ["#78D2C4", "#D2B2B3"],
+      id: uuidv4(),
+      active: false,
+    },
+    {
+      name: "Dreams Tonite",
+      artist: "Alvvays",
+      cover: "https://i1.sndcdn.com/artworks-5tMvFrQSuU3PzrLY-WXB5UQ-t500x500.jpg",
+      audio: "https://lifedj.sunproxy.net/download/MzcwWUp0QjdoL094NVVvQ2lwYVFKRU5lelZTOHQ4WGZ4MUhUZWttVWkyWncwMVF1eWJWNUdKVDRLN0E3Mk5TbjJXUkZ3bXFYWmJYa3JMOW44ZHp4VU95TnFVblU0OTN6WTAwdmxudmZrQzR5bVZDN3pFUzU2eVAxYW9UVVhwTTE/Alvvays_-_Dreams_Tonite_(djlist.net).mp3",
+      color: ["#D7744C", "#1E373D"],
       id: uuidv4(),
       active: false,
     },
