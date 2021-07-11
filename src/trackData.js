@@ -5,8 +5,7 @@ function getTrack() {
     {
       name: "NITROUS",
       artist: "Joji",
-      cover:
-        "https://wallpaperaccess.com/full/2246805.jpg",
+      cover: "https://wallpaperaccess.com/full/2246805.jpg",
       audio:
         "http://www.stannovastore.com/wp-content/uploads/2020/09/Joji_-_NITROUS_stannovastore.com.mp3",
       color: ["#434343", "#ffffff"],
@@ -94,19 +93,21 @@ function getTrack() {
       active: false,
     },
     {
-      name: "Dreams Tonite",
-      artist: "Alvvays",
-      cover: "https://i1.sndcdn.com/artworks-5tMvFrQSuU3PzrLY-WXB5UQ-t500x500.jpg",
-      audio: "https://lifedj.sunproxy.net/download/MzcwWUp0QjdoL094NVVvQ2lwYVFKRU5lelZTOHQ4WGZ4MUhUZWttVWkyWncwMVF1eWJWNUdKVDRLN0E3Mk5TbjJXUkZ3bXFYWmJYa3JMOW44ZHp4VU95TnFVblU0OTN6WTAwdmxudmZrQzR5bVZDN3pFUzU2eVAxYW9UVVhwTTE/Alvvays_-_Dreams_Tonite_(djlist.net).mp3",
+      name: "Frequency",
+      artist: "Kid Cudi",
+      cover:
+        "https://djbooth.net/.image/t_share/MTU2NTkxMjgzOTcwNzc4MjAz/kid-cudi-love-lonliness.jpg",
+      audio: "https://download.mp3oops.fun/s/Kid-Cudi-Frequency.mp3",
       color: ["#D7744C", "#1E373D"],
       id: uuidv4(),
       active: false,
     },
     {
-      name: "Love",
-      artist: "Bohnes",
-      cover: "https://resources.tidal.com/images/fd75bf41/fafd/46a5/a06d/4b54b4ccc9de/640x640.jpg",
-      audio: "https://lifedj.sunproxy.net/download/MzcwWUp0QjdoL094NVVvQ2lwYVFKRU5lelZTOHQ4WGZ4MUhUZWttVWkyYnlKc0FVNSs3RTE0WTJScnppUHQwLzFRWEJiRmUvRHYzTVVveFhrRGRXRFQ0OXBYYkNQSEhWNnRwSi84U0lJTzJwaDhHejBkcHpFTEcxZHByQSsyWFc/Bohnes_-_Zombie_Love_(djlist.net).mp3",
+      name: "Lie",
+      artist: "Jimin",
+      cover:
+        "https://i.pinimg.com/736x/91/5f/2d/915f2d6cd1921b1fbb6419bbf888d562.jpg",
+      audio: "https://download.mp3oops.fun/s/BTS-Lie.mp3",
       color: ["#e0d2cc9e", "#02080a"],
       id: uuidv4(),
       active: false,
